@@ -2,8 +2,10 @@ import React from 'react'
 
 const Paragraph = () => {
   return (
-    <div className='container my-5'><h1>¿Qué es un videojueo?</h1>
-    Un videojuego, juego de video o juego de vídeo es un juego electrónico en el que una o más personas interactúan por medio de un controlador, con un dispositivo que muestra imágenes de vídeo.
+    <div className='container my-5 '>
+      <p className='text-center fs-2 fw-bold'>¿Qué es un videojuego?</p>
+    <p className='text-center'>
+      Un videojuego, juego de video o juego de vídeo es un juego electrónico en el que una o más personas interactúan por medio de un controlador, con un dispositivo que muestra imágenes de vídeo.
         Este dispositivo electrónico, conocido genéricamente como «plataforma», puede ser una computadora, una máquina de arcade, una videoconsola o un dispositivo portátil, como por ejemplo un teléfono 
         móvil, teléfono inteligente o tableta. La industria de los videojuegos es una de las principales en el mundo del arte y del entretenimiento.
 
@@ -13,7 +15,9 @@ const Paragraph = () => {
      teclado y un ratón de forma simultánea.
     
     Generalmente los videojuegos hacen uso de otras maneras, aparte de la imagen, de proveer la interactividad e información al jugador. El audio es casi universal, usándose dispositivos de reproducción de
-     sonido, tales como altavoces y auriculares. Otro tipo de realimentación se hace a través de periféricos hápticos que producen vibración o retroalimentación de fuerza.</div>
+     sonido, tales como altavoces y auriculares. Otro tipo de realimentación se hace a través de periféricos hápticos que producen vibración o retroalimentación de fuerza.
+      </p>
+     </div>
   )
 }
 

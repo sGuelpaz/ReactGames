@@ -1,0 +1,13 @@
+.conCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .end{
+    background-color: #F8F9FA;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    justify-items: center;
+  }
